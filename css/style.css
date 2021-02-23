@@ -1,4 +1,87 @@
-h1{
-
-	color: blue; 
+body{
+	font-family: 'Noto Sans', sans-serif;
 }
+#Button{
+	visibility: hidden;
+}
+#Desplegable{
+	visibility: hidden;
+}
+#Desplegable li{
+	padding: 0;
+}
+#Desplegable hr{
+	size: "5";
+	margin: 0 ;
+	color: black ;
+	opacity: 0.90 ;
+	width: 98% ;
+	align-self: center;
+}
+#Desplegable a{
+	color: black;
+}
+#SegundoTitulo{
+	margin-top: 15px;
+	position: relative;
+}
+
+#text_menu{
+	font-size: 1.8rem; 
+	position: relative;
+}
+
+#Cabecera{
+	border-width:2px;
+   	border-color:black;
+   	border-style:solid;
+   	background-color: gray;
+}
+
+#CuerpoTexto{
+	height:1000px;
+	width: 98%;
+	background-color:#fb45452b;
+	margin: auto;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/*  La ilustración de la maqueta móvil debe corresponder a la clase basada en Bootstrap xs	*/
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width:0px) and (max-width: 576px) { 
+	#Button{
+		visibility: visible;
+	}
+	#Desplegable{
+		position: relative;
+		top: -2px;
+		visibility: visible;
+		border-width:2px;
+   		border-color:black;
+   		border-style:solid;
+   		padding: 0 ;
+   		width: 100%;
+   		margin: auto;
+   		background-color: #f3c39a45 ;
+	}
+}
+
+/* La ilustración de la maqueta de la tableta debe corresponder a las clases basadas en Bootstrap sm */
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 577px) and (max-width: 768px) {  }
+
+/*	La ilustración de la maqueta de escritorio debe corresponder a las clases basadas en Bootstrap md */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) { }
+
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) { ... }
+
+
+
